@@ -1,6 +1,6 @@
 # See https://nextjs.org/docs/basic-features/pages#pre-rendering
 # for more information on which files to include in .gitignore
-.next
+.next/
 .vercel/
 .env.local
 .env.development.local

@@ -55,7 +55,11 @@ export const Navbar = () => {
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             {/* <Logo /> */}
+<<<<<<< HEAD
             <p className="font-bold text-inherit">Engineer and developer</p>
+=======
+            <p className="font-bold text-inherit">Timur Uzakov</p>
+>>>>>>> d9f5ab3cee67a3a2cf87d32f9502b59b9026f80d
           </NextLink>
         </NavbarBrand>
         {/* <ul className="hidden lg:flex gap-4 justify-start ml-2">

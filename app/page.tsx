@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 "use client";
+=======
+>>>>>>> d9f5ab3cee67a3a2cf87d32f9502b59b9026f80d
 import { Link } from "@heroui/link";
 import { Snippet } from "@heroui/snippet";
 import { Code } from "@heroui/code";
 import { button as buttonStyles } from "@heroui/theme";
+<<<<<<< HEAD
 import { Avatar } from "@heroui/react";
+=======
+
+>>>>>>> d9f5ab3cee67a3a2cf87d32f9502b59b9026f80d
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
@@ -11,6 +18,7 @@ import { GithubIcon } from "@/components/icons";
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+<<<<<<< HEAD
       <div className="inline-block max-w-lg items-center justify-center">
           <Avatar className="w-60 h-60" color="primary" isBordered src="/avatar.jpg" />
         </div>
@@ -23,6 +31,17 @@ export default function Home() {
         </span>
         <div className={subtitle({ class: "mt-4" })}>
           iOS C++ Rust ROS Flutter React
+=======
+      <div className="inline-block max-w-xl text-center justify-center">
+        <span className={title()}>Make&nbsp;</span>
+        <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
+        <br />
+        <span className={title()}>
+          websites regardless of your design experience.
+        </span>
+        <div className={subtitle({ class: "mt-4" })}>
+          Beautiful, fast and modern React UI library.
+>>>>>>> d9f5ab3cee67a3a2cf87d32f9502b59b9026f80d
         </div>
       </div>
 

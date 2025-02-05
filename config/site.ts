@@ -1,8 +1,13 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
+<<<<<<< HEAD
   name: "Timur Uzakov",
   description: "Engineer and developer",
+=======
+  name: "Next.js + HeroUI",
+  description: "Make beautiful websites regardless of your design experience.",
+>>>>>>> d9f5ab3cee67a3a2cf87d32f9502b59b9026f80d
   navItems: [
     {
       label: "Home",
@@ -60,11 +65,20 @@ export const siteConfig = {
     },
   ],
   links: {
+<<<<<<< HEAD
     github: "https://github.com/uzakotim",
     twitter: "https://twitter.com/hero_ui",
     docs: "https://heroui.com",
     discord: "https://discordapp.com/users/645277326724169729",
     sponsor: "https://patreon.com/jrgarciadev",
     linkedin: "https://www.linkedin.com/in/timur-uzakov/",
+=======
+    github: "https://github.com/heroui-inc/heroui",
+    twitter: "https://twitter.com/hero_ui",
+    docs: "https://heroui.com",
+    discord: "https://discord.gg/9b6yyZKmH4",
+    sponsor: "https://patreon.com/jrgarciadev",
+    linkedin: "https://www.linkedin.com/in/timuruzakov",
+>>>>>>> d9f5ab3cee67a3a2cf87d32f9502b59b9026f80d
   },
 };
