@@ -6,7 +6,7 @@
   "dev": "next dev --turbopack",
   "build": "next build",
   "start": "next start",
-  "deploy": "next build && touch ./out/.nojekyll gh-pages -d out -t true ",
+  "deploy": "next build && touch ./out/.nojekyll gh-pages -d out ",
   "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
  },
  "dependencies": {
