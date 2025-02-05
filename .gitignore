@@ -1,0 +1,81 @@
+# See https://nextjs.org/docs/basic-features/pages#pre-rendering
+# for more information on which files to include in .gitignore
+.next/
+.vercel/
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+node_modules/
+# Build output
+dist/
+out/
+
+# cache
+.cache/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/*
+logs/*
+
+# Runtime data
+pids/*
+shared/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# misc
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+._*
+
+# nextjs specific
+.next
+.vercel
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+.next/static/chunks/*
+.next/static/development/*
+.next/static/images/*
+.next/static/media/*
+.next/static/pages/*
+.next/static/prepass/*
+.next/static/webpack/*
+.next/required-server-files.json
+.next/bundles-manifest.json
+.next/routes-manifest.json
+.next/tracing-manifest.json
+.next/data/globals.json
+.next/data/head.json
+.next/data/dynamic.json
+.next/data/i18n.json
+.next/data/amp.json
+.next/data/amp-ssr.json
+.next/data/amp-hybrid.json
+.next/data/amp-ssr-hybrid.json
+.next/data/amp-ssg.json
+.next/data/amp-ssg-hybrid.json
+.next/data/amp-ssg-ssr.json
+.next/data/amp-ssg-ssr-hybrid.json
+.next/data/amp-ssg-ssr-hybrid.json
+.next/data/amp-ssg-ssr-hybrid.json
+.next/data/amp-ssg-ssr-hybrid.json
+.next/data/amp-ssg-ssr-hybrid.json
